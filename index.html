@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id = "a">
+    <input type="text" id = "b">
+    <button onClick="sum()">SUM</button>
+    <div id="res"></div>
+    <script>
+        let a, b, c;
+        function sum()
+        {
+            a = document.getElementById("a").value;
+            b = document.getElementById("b").value;
+            c = a + b;
+            document.getElementById("res").innerHTML = "პასუხი: " + c;
+        }
+        console.log("aha gvalo");
+    </script>
+</body>
+</html>
