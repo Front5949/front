@@ -1,11 +1,11 @@
-<<<<<<< HEAD
    .header1{
         display: flex;
-        background-color:rgb(190, 189, 189);
+       background: #c4c1c1;
         height: 90px;
         width:100%;
         align-items: center;
         justify-content: center;
+        color: white;
        
     }
     body{
@@ -18,7 +18,7 @@
     .header2{
         display: flex;
         align-items: center;
-        gap:5px
+        gap:10px;
     }
     .linkebi{
         display: flex;
@@ -32,9 +32,8 @@
 
     }
     a:hover{
-        color: red;
+        color:  #F44770;
       }
-=======
 *{
     padding: 0;
     margin: 0;
@@ -427,4 +426,3 @@ input:focus{
     border-top: 1px solid #333;
     padding-top: 10px;
 }
->>>>>>> e453ebf1818bf7541ce225e745ee0d6a37446536
