@@ -1,0 +1,35 @@
+   .header1{
+        display: flex;
+        background-color:rgb(190, 189, 189);
+        height: 90px;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    body{
+        margin: auto;
+    }
+    .img1{
+        width: 80px;
+        height: 70px;
+    }
+    .header2{
+        display: flex;
+        align-items: center;
+        gap:5px
+    }
+    .linkebi{
+        display: flex;
+        margin-left: 300px;
+        gap:90px;
+       
+        
+    } 
+    a{  text-decoration: none;
+        
+
+    }
+    a:hover{
+        color: red;
+      }
